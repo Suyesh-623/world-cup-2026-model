@@ -1,0 +1,697 @@
+{
+  "rounds": {
+    "R32": {
+      "73": {
+        "home": "South Africa",
+        "away": "Canada",
+        "xg": [
+          0.82,
+          1.33
+        ],
+        "win": 0.225,
+        "draw": 0.295,
+        "lose": 0.48,
+        "adv_home": 0.354,
+        "adv_away": 0.646,
+        "o15": 0.64,
+        "o25": 0.364,
+        "o35": 0.171,
+        "btts": 0.419,
+        "cs_home_cleansheet": 0.265,
+        "cs_away_cleansheet": 0.44,
+        "top_score": "0-1",
+        "top_score_p": 0.148,
+        "winner": "Canada"
+      },
+      "74": {
+        "home": "Germany",
+        "away": "Paraguay",
+        "xg": [
+          2.78,
+          1.42
+        ],
+        "win": 0.657,
+        "draw": 0.172,
+        "lose": 0.172,
+        "adv_home": 0.766,
+        "adv_away": 0.234,
+        "o15": 0.925,
+        "o25": 0.789,
+        "o35": 0.604,
+        "btts": 0.714,
+        "cs_home_cleansheet": 0.242,
+        "cs_away_cleansheet": 0.062,
+        "top_score": "2-1",
+        "top_score_p": 0.082,
+        "winner": "Germany"
+      },
+      "75": {
+        "home": "Netherlands",
+        "away": "Morocco",
+        "xg": [
+          1.59,
+          2.56
+        ],
+        "win": 0.226,
+        "draw": 0.19,
+        "lose": 0.584,
+        "adv_home": 0.303,
+        "adv_away": 0.697,
+        "o15": 0.922,
+        "o25": 0.783,
+        "o35": 0.596,
+        "btts": 0.738,
+        "cs_home_cleansheet": 0.077,
+        "cs_away_cleansheet": 0.204,
+        "top_score": "1-2",
+        "top_score_p": 0.082,
+        "winner": "Morocco"
+      },
+      "76": {
+        "home": "Brazil",
+        "away": "Japan",
+        "xg": [
+          1.83,
+          1.16
+        ],
+        "win": 0.525,
+        "draw": 0.24,
+        "lose": 0.235,
+        "adv_home": 0.663,
+        "adv_away": 0.337,
+        "o15": 0.804,
+        "o25": 0.574,
+        "o35": 0.35,
+        "btts": 0.581,
+        "cs_home_cleansheet": 0.314,
+        "cs_away_cleansheet": 0.161,
+        "top_score": "1-1",
+        "top_score_p": 0.112,
+        "winner": "Brazil"
+      },
+      "77": {
+        "home": "France",
+        "away": "Sweden",
+        "xg": [
+          4.4,
+          1.49
+        ],
+        "win": 0.843,
+        "draw": 0.086,
+        "lose": 0.071,
+        "adv_home": 0.907,
+        "adv_away": 0.093,
+        "o15": 0.982,
+        "o25": 0.933,
+        "o35": 0.839,
+        "btts": 0.767,
+        "cs_home_cleansheet": 0.224,
+        "cs_away_cleansheet": 0.012,
+        "top_score": "4-1",
+        "top_score_p": 0.065,
+        "winner": "France"
+      },
+      "78": {
+        "home": "Ivory Coast",
+        "away": "Norway",
+        "xg": [
+          2.44,
+          1.04
+        ],
+        "win": 0.678,
+        "draw": 0.183,
+        "lose": 0.139,
+        "adv_home": 0.797,
+        "adv_away": 0.203,
+        "o15": 0.865,
+        "o25": 0.674,
+        "o35": 0.458,
+        "btts": 0.592,
+        "cs_home_cleansheet": 0.355,
+        "cs_away_cleansheet": 0.087,
+        "top_score": "2-1",
+        "top_score_p": 0.095,
+        "winner": "Ivory Coast"
+      },
+      "79": {
+        "home": "Mexico",
+        "away": "Ecuador",
+        "xg": [
+          1.03,
+          0.39
+        ],
+        "win": 0.51,
+        "draw": 0.358,
+        "lose": 0.132,
+        "adv_home": 0.72,
+        "adv_away": 0.28,
+        "o15": 0.42,
+        "o25": 0.171,
+        "o35": 0.056,
+        "btts": 0.211,
+        "cs_home_cleansheet": 0.679,
+        "cs_away_cleansheet": 0.356,
+        "top_score": "0-0",
+        "top_score_p": 0.246,
+        "winner": "Mexico"
+      },
+      "80": {
+        "home": "England",
+        "away": "DR Congo",
+        "xg": [
+          1.22,
+          0.9
+        ],
+        "win": 0.427,
+        "draw": 0.306,
+        "lose": 0.267,
+        "adv_home": 0.592,
+        "adv_away": 0.408,
+        "o15": 0.633,
+        "o25": 0.357,
+        "o35": 0.166,
+        "btts": 0.426,
+        "cs_home_cleansheet": 0.405,
+        "cs_away_cleansheet": 0.295,
+        "top_score": "1-0",
+        "top_score_p": 0.139,
+        "winner": "England"
+      },
+      "81": {
+        "home": "United States",
+        "away": "Bosnia and Herzegovina",
+        "xg": [
+          4.16,
+          1.73
+        ],
+        "win": 0.788,
+        "draw": 0.107,
+        "lose": 0.105,
+        "adv_home": 0.863,
+        "adv_away": 0.137,
+        "o15": 0.982,
+        "o25": 0.932,
+        "o35": 0.838,
+        "btts": 0.81,
+        "cs_home_cleansheet": 0.178,
+        "cs_away_cleansheet": 0.016,
+        "top_score": "4-1",
+        "top_score_p": 0.06,
+        "winner": "United States"
+      },
+      "82": {
+        "home": "Belgium",
+        "away": "Senegal",
+        "xg": [
+          2.59,
+          1.26
+        ],
+        "win": 0.657,
+        "draw": 0.18,
+        "lose": 0.163,
+        "adv_home": 0.771,
+        "adv_away": 0.229,
+        "o15": 0.9,
+        "o25": 0.738,
+        "o35": 0.535,
+        "btts": 0.665,
+        "cs_home_cleansheet": 0.285,
+        "cs_away_cleansheet": 0.075,
+        "top_score": "2-1",
+        "top_score_p": 0.09,
+        "winner": "Belgium"
+      },
+      "83": {
+        "home": "Portugal",
+        "away": "Croatia",
+        "xg": [
+          2.41,
+          0.92
+        ],
+        "win": 0.7,
+        "draw": 0.179,
+        "lose": 0.121,
+        "adv_home": 0.818,
+        "adv_away": 0.182,
+        "o15": 0.849,
+        "o25": 0.647,
+        "o35": 0.426,
+        "btts": 0.55,
+        "cs_home_cleansheet": 0.4,
+        "cs_away_cleansheet": 0.089,
+        "top_score": "2-0",
+        "top_score_p": 0.104,
+        "winner": "Portugal"
+      },
+      "84": {
+        "home": "Spain",
+        "away": "Austria",
+        "xg": [
+          1.74,
+          0.9
+        ],
+        "win": 0.567,
+        "draw": 0.247,
+        "lose": 0.186,
+        "adv_home": 0.714,
+        "adv_away": 0.286,
+        "o15": 0.744,
+        "o25": 0.489,
+        "o35": 0.271,
+        "btts": 0.493,
+        "cs_home_cleansheet": 0.409,
+        "cs_away_cleansheet": 0.176,
+        "top_score": "1-0",
+        "top_score_p": 0.119,
+        "winner": "Spain"
+      },
+      "85": {
+        "home": "Switzerland",
+        "away": "Algeria",
+        "xg": [
+          1.96,
+          2.12
+        ],
+        "win": 0.363,
+        "draw": 0.211,
+        "lose": 0.426,
+        "adv_home": 0.465,
+        "adv_away": 0.535,
+        "o15": 0.918,
+        "o25": 0.774,
+        "o35": 0.583,
+        "btts": 0.76,
+        "cs_home_cleansheet": 0.12,
+        "cs_away_cleansheet": 0.141,
+        "top_score": "1-2",
+        "top_score_p": 0.074,
+        "winner": "Algeria"
+      },
+      "86": {
+        "home": "Argentina",
+        "away": "Cape Verde",
+        "xg": [
+          2.05,
+          0.57
+        ],
+        "win": 0.717,
+        "draw": 0.195,
+        "lose": 0.088,
+        "adv_home": 0.847,
+        "adv_away": 0.153,
+        "o15": 0.741,
+        "o25": 0.486,
+        "o35": 0.268,
+        "btts": 0.384,
+        "cs_home_cleansheet": 0.564,
+        "cs_away_cleansheet": 0.129,
+        "top_score": "2-0",
+        "top_score_p": 0.153,
+        "winner": "Argentina"
+      },
+      "87": {
+        "home": "Colombia",
+        "away": "Ghana",
+        "xg": [
+          1.25,
+          0.67
+        ],
+        "win": 0.498,
+        "draw": 0.31,
+        "lose": 0.192,
+        "adv_home": 0.676,
+        "adv_away": 0.324,
+        "o15": 0.577,
+        "o25": 0.301,
+        "o35": 0.128,
+        "btts": 0.353,
+        "cs_home_cleansheet": 0.514,
+        "cs_away_cleansheet": 0.287,
+        "top_score": "1-0",
+        "top_score_p": 0.178,
+        "winner": "Colombia"
+      },
+      "88": {
+        "home": "Australia",
+        "away": "Egypt",
+        "xg": [
+          0.74,
+          1.12
+        ],
+        "win": 0.233,
+        "draw": 0.326,
+        "lose": 0.441,
+        "adv_home": 0.38,
+        "adv_away": 0.62,
+        "o15": 0.562,
+        "o25": 0.286,
+        "o35": 0.119,
+        "btts": 0.359,
+        "cs_home_cleansheet": 0.325,
+        "cs_away_cleansheet": 0.479,
+        "top_score": "0-1",
+        "top_score_p": 0.168,
+        "winner": "Egypt"
+      }
+    },
+    "R16": {
+      "89": {
+        "home": "Germany",
+        "away": "France",
+        "xg": [
+          2.59,
+          3.0
+        ],
+        "win": 0.346,
+        "draw": 0.174,
+        "lose": 0.481,
+        "adv_home": 0.426,
+        "adv_away": 0.574,
+        "o15": 0.977,
+        "o25": 0.917,
+        "o35": 0.808,
+        "btts": 0.88,
+        "cs_home_cleansheet": 0.05,
+        "cs_away_cleansheet": 0.075,
+        "top_score": "2-3",
+        "top_score_p": 0.056,
+        "winner": "France"
+      },
+      "90": {
+        "home": "Canada",
+        "away": "Morocco",
+        "xg": [
+          1.03,
+          2.25
+        ],
+        "win": 0.157,
+        "draw": 0.2,
+        "lose": 0.644,
+        "adv_home": 0.23,
+        "adv_away": 0.77,
+        "o15": 0.843,
+        "o25": 0.636,
+        "o35": 0.414,
+        "btts": 0.579,
+        "cs_home_cleansheet": 0.106,
+        "cs_away_cleansheet": 0.357,
+        "top_score": "1-2",
+        "top_score_p": 0.098,
+        "winner": "Morocco"
+      },
+      "91": {
+        "home": "Brazil",
+        "away": "Ivory Coast",
+        "xg": [
+          1.34,
+          1.32
+        ],
+        "win": 0.367,
+        "draw": 0.273,
+        "lose": 0.36,
+        "adv_home": 0.504,
+        "adv_away": 0.496,
+        "o15": 0.75,
+        "o25": 0.496,
+        "o35": 0.277,
+        "btts": 0.547,
+        "cs_home_cleansheet": 0.267,
+        "cs_away_cleansheet": 0.263,
+        "top_score": "1-1",
+        "top_score_p": 0.13,
+        "winner": "Brazil"
+      },
+      "92": {
+        "home": "Mexico",
+        "away": "England",
+        "xg": [
+          1.37,
+          0.55
+        ],
+        "win": 0.566,
+        "draw": 0.291,
+        "lose": 0.144,
+        "adv_home": 0.741,
+        "adv_away": 0.259,
+        "o15": 0.578,
+        "o25": 0.302,
+        "o35": 0.129,
+        "btts": 0.321,
+        "cs_home_cleansheet": 0.577,
+        "cs_away_cleansheet": 0.254,
+        "top_score": "1-0",
+        "top_score_p": 0.195,
+        "winner": "Mexico"
+      },
+      "93": {
+        "home": "Portugal",
+        "away": "Spain",
+        "xg": [
+          0.73,
+          0.75
+        ],
+        "win": 0.304,
+        "draw": 0.382,
+        "lose": 0.313,
+        "adv_home": 0.495,
+        "adv_away": 0.505,
+        "o15": 0.443,
+        "o25": 0.187,
+        "o35": 0.064,
+        "btts": 0.281,
+        "cs_home_cleansheet": 0.472,
+        "cs_away_cleansheet": 0.48,
+        "top_score": "0-0",
+        "top_score_p": 0.233,
+        "winner": "Spain"
+      },
+      "94": {
+        "home": "United States",
+        "away": "Belgium",
+        "xg": [
+          1.68,
+          3.42
+        ],
+        "win": 0.153,
+        "draw": 0.142,
+        "lose": 0.705,
+        "adv_home": 0.201,
+        "adv_away": 0.799,
+        "o15": 0.965,
+        "o25": 0.884,
+        "o35": 0.749,
+        "btts": 0.79,
+        "cs_home_cleansheet": 0.033,
+        "cs_away_cleansheet": 0.185,
+        "top_score": "1-3",
+        "top_score_p": 0.068,
+        "winner": "Belgium"
+      },
+      "95": {
+        "home": "Argentina",
+        "away": "Egypt",
+        "xg": [
+          1.52,
+          0.87
+        ],
+        "win": 0.518,
+        "draw": 0.272,
+        "lose": 0.21,
+        "adv_home": 0.675,
+        "adv_away": 0.325,
+        "o15": 0.696,
+        "o25": 0.428,
+        "o35": 0.22,
+        "btts": 0.461,
+        "cs_home_cleansheet": 0.418,
+        "cs_away_cleansheet": 0.219,
+        "top_score": "1-0",
+        "top_score_p": 0.133,
+        "winner": "Argentina"
+      },
+      "96": {
+        "home": "Algeria",
+        "away": "Colombia",
+        "xg": [
+          1.42,
+          1.52
+        ],
+        "win": 0.349,
+        "draw": 0.257,
+        "lose": 0.394,
+        "adv_home": 0.475,
+        "adv_away": 0.525,
+        "o15": 0.798,
+        "o25": 0.565,
+        "o35": 0.341,
+        "btts": 0.599,
+        "cs_home_cleansheet": 0.218,
+        "cs_away_cleansheet": 0.241,
+        "top_score": "1-1",
+        "top_score_p": 0.12,
+        "winner": "Colombia"
+      }
+    },
+    "QF": {
+      "97": {
+        "home": "France",
+        "away": "Morocco",
+        "xg": [
+          2.05,
+          1.71
+        ],
+        "win": 0.459,
+        "draw": 0.219,
+        "lose": 0.322,
+        "adv_home": 0.576,
+        "adv_away": 0.424,
+        "o15": 0.893,
+        "o25": 0.725,
+        "o35": 0.519,
+        "btts": 0.718,
+        "cs_home_cleansheet": 0.181,
+        "cs_away_cleansheet": 0.128,
+        "top_score": "1-1",
+        "top_score_p": 0.086,
+        "winner": "France"
+      },
+      "98": {
+        "home": "Spain",
+        "away": "Belgium",
+        "xg": [
+          0.94,
+          1.09
+        ],
+        "win": 0.301,
+        "draw": 0.319,
+        "lose": 0.38,
+        "adv_home": 0.455,
+        "adv_away": 0.545,
+        "o15": 0.607,
+        "o25": 0.329,
+        "o35": 0.147,
+        "btts": 0.409,
+        "cs_home_cleansheet": 0.337,
+        "cs_away_cleansheet": 0.392,
+        "top_score": "1-1",
+        "top_score_p": 0.141,
+        "winner": "Belgium"
+      },
+      "99": {
+        "home": "Brazil",
+        "away": "Mexico",
+        "xg": [
+          1.03,
+          1.25
+        ],
+        "win": 0.299,
+        "draw": 0.296,
+        "lose": 0.405,
+        "adv_home": 0.439,
+        "adv_away": 0.561,
+        "o15": 0.672,
+        "o25": 0.4,
+        "o35": 0.197,
+        "btts": 0.466,
+        "cs_home_cleansheet": 0.287,
+        "cs_away_cleansheet": 0.355,
+        "top_score": "1-1",
+        "top_score_p": 0.138,
+        "winner": "Mexico"
+      },
+      "100": {
+        "home": "Argentina",
+        "away": "Colombia",
+        "xg": [
+          1.72,
+          0.64
+        ],
+        "win": 0.631,
+        "draw": 0.241,
+        "lose": 0.129,
+        "adv_home": 0.782,
+        "adv_away": 0.218,
+        "o15": 0.688,
+        "o25": 0.42,
+        "o35": 0.213,
+        "btts": 0.393,
+        "cs_home_cleansheet": 0.528,
+        "cs_away_cleansheet": 0.178,
+        "top_score": "1-0",
+        "top_score_p": 0.157,
+        "winner": "Argentina"
+      }
+    },
+    "SF": {
+      "SF1": {
+        "home": "France",
+        "away": "Belgium",
+        "xg": [
+          1.63,
+          1.82
+        ],
+        "win": 0.343,
+        "draw": 0.233,
+        "lose": 0.424,
+        "adv_home": 0.455,
+        "adv_away": 0.545,
+        "o15": 0.864,
+        "o25": 0.67,
+        "o35": 0.453,
+        "btts": 0.679,
+        "cs_home_cleansheet": 0.161,
+        "cs_away_cleansheet": 0.196,
+        "top_score": "1-1",
+        "top_score_p": 0.099,
+        "winner": "Belgium"
+      },
+      "SF2": {
+        "home": "Mexico",
+        "away": "Argentina",
+        "xg": [
+          0.84,
+          0.91
+        ],
+        "win": 0.306,
+        "draw": 0.348,
+        "lose": 0.346,
+        "adv_home": 0.477,
+        "adv_away": 0.523,
+        "o15": 0.527,
+        "o25": 0.254,
+        "o35": 0.1,
+        "btts": 0.345,
+        "cs_home_cleansheet": 0.403,
+        "cs_away_cleansheet": 0.434,
+        "top_score": "0-0",
+        "top_score_p": 0.182,
+        "winner": "Argentina"
+      }
+    },
+    "Final": {
+      "FINAL": {
+        "home": "Belgium",
+        "away": "Argentina",
+        "xg": [
+          1.12,
+          1.44
+        ],
+        "win": 0.287,
+        "draw": 0.275,
+        "lose": 0.438,
+        "adv_home": 0.414,
+        "adv_away": 0.586,
+        "o15": 0.729,
+        "o25": 0.469,
+        "o35": 0.254,
+        "btts": 0.519,
+        "cs_home_cleansheet": 0.238,
+        "cs_away_cleansheet": 0.328,
+        "top_score": "1-1",
+        "top_score_p": 0.131,
+        "winner": "Argentina"
+      }
+    }
+  },
+  "champion": "Argentina"
+}

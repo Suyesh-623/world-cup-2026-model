@@ -1,0 +1,160 @@
+{
+  "dataMode": "sample",
+  "pricesAreLive": false,
+  "round": "Group stage · matchday 3",
+  "note": "Fixtures and team ratings are REAL: ratings are fit from 182 sourced 2026 matches (54 World Cup + 128 international friendlies, via Wikipedia + worldfootball). Market prices are still placeholders pending the Kalshi feed, and FIFA ranks are approximate — so the model probabilities are real, but the edges shown are illustrative until live odds are wired.",
+  "fixtures": [
+    {
+      "id": "nor-fra",
+      "group": "Group I",
+      "round": "Group I · matchday 3",
+      "kickoff": "2026-06-26T19:00:00Z",
+      "kickoffLabel": "Fri · 3:00 PM ET",
+      "importance": 80,
+      "venue": { "name": "Gillette Stadium", "city": "Foxborough, MA", "lat": 42.091, "lon": -71.264 },
+      "weather": { "tempF": 74, "condition": "Clear" },
+      "home": { "code": "no", "code3": "NOR", "name": "Norway", "fifaRank": 30, "att": 0.16, "def": 0.04 },
+      "away": { "code": "fr", "code3": "FRA", "name": "France", "fifaRank": 2, "att": 0.30, "def": 0.22 },
+      "markets": [
+        { "key": "total_over_2.5", "group": "Total goals", "label": "Over 2.5", "market": 0.56, "baseline": 0.60 },
+        { "key": "btts_yes", "group": "Both teams score", "label": "Yes", "market": 0.59, "baseline": 0.61 },
+        { "key": "fh_over_0.5", "group": "First half", "label": "Over 0.5", "market": 0.72, "baseline": null },
+        { "key": "handicap_away_-1.5", "group": "Spread", "label": "France -1.5", "market": 0.31, "baseline": null },
+        { "key": "result_away", "group": "Result", "label": "France win", "market": 0.53, "baseline": 0.52 }
+      ]
+    },
+    {
+      "id": "uru-esp",
+      "group": "Group H",
+      "round": "Group H · matchday 3",
+      "kickoff": "2026-06-27T00:00:00Z",
+      "kickoffLabel": "Fri · 8:00 PM ET",
+      "importance": 78,
+      "venue": { "name": "Estadio Akron", "city": "Guadalajara, MX", "lat": 20.681, "lon": -103.463 },
+      "weather": { "tempF": 78, "condition": "Clear" },
+      "home": { "code": "uy", "code3": "URU", "name": "Uruguay", "fifaRank": 15, "att": 0.10, "def": 0.14 },
+      "away": { "code": "es", "code3": "ESP", "name": "Spain", "fifaRank": 3, "att": 0.30, "def": 0.22 },
+      "markets": [
+        { "key": "total_over_2.5", "group": "Total goals", "label": "Over 2.5", "market": 0.50, "baseline": 0.53 },
+        { "key": "btts_no", "group": "Both teams score", "label": "No", "market": 0.42, "baseline": 0.46 },
+        { "key": "fh_over_0.5", "group": "First half", "label": "Over 0.5", "market": 0.70, "baseline": null },
+        { "key": "handicap_away_-1.5", "group": "Spread", "label": "Spain -1.5", "market": 0.27, "baseline": null },
+        { "key": "result_away", "group": "Result", "label": "Spain win", "market": 0.49, "baseline": 0.50 }
+      ]
+    },
+    {
+      "id": "nzl-bel",
+      "group": "Group G",
+      "round": "Group G · matchday 3",
+      "kickoff": "2026-06-27T03:00:00Z",
+      "kickoffLabel": "Fri · 11:00 PM ET",
+      "importance": 72,
+      "venue": { "name": "BC Place", "city": "Vancouver, CA", "lat": 49.277, "lon": -123.112 },
+      "weather": { "tempF": 66, "condition": "Roof closed" },
+      "home": { "code": "nz", "code3": "NZL", "name": "New Zealand", "fifaRank": 86, "att": -0.20, "def": -0.18 },
+      "away": { "code": "be", "code3": "BEL", "name": "Belgium", "fifaRank": 8, "att": 0.22, "def": 0.12 },
+      "markets": [
+        { "key": "handicap_away_-1.5", "group": "Spread", "label": "Belgium -1.5", "market": 0.37, "baseline": null },
+        { "key": "result_away", "group": "Result", "label": "Belgium win", "market": 0.60, "baseline": 0.62 },
+        { "key": "total_over_2.5", "group": "Total goals", "label": "Over 2.5", "market": 0.57, "baseline": 0.59 },
+        { "key": "fh_over_0.5", "group": "First half", "label": "Over 0.5", "market": 0.71, "baseline": null },
+        { "key": "btts_no", "group": "Both teams score", "label": "No", "market": 0.44, "baseline": null }
+      ]
+    },
+    {
+      "id": "egy-irn",
+      "group": "Group G",
+      "round": "Group G · matchday 3",
+      "kickoff": "2026-06-27T03:00:00Z",
+      "kickoffLabel": "Fri · 11:00 PM ET",
+      "importance": 70,
+      "venue": { "name": "Lumen Field", "city": "Seattle, WA", "lat": 47.595, "lon": -122.332 },
+      "weather": { "tempF": 68, "condition": "Clear" },
+      "home": { "code": "eg", "code3": "EGY", "name": "Egypt", "fifaRank": 32, "att": 0.00, "def": 0.04 },
+      "away": { "code": "ir", "code3": "IRN", "name": "Iran", "fifaRank": 18, "att": -0.02, "def": 0.06 },
+      "markets": [
+        { "key": "btts_no", "group": "Both teams score", "label": "No", "market": 0.40, "baseline": 0.45 },
+        { "key": "fh_over_0.5", "group": "First half", "label": "Over 0.5", "market": 0.70, "baseline": null },
+        { "key": "total_over_2.5", "group": "Total goals", "label": "Over 2.5", "market": 0.52, "baseline": 0.50 },
+        { "key": "result_home", "group": "Result", "label": "Egypt win", "market": 0.38, "baseline": null },
+        { "key": "result_draw", "group": "Result", "label": "Draw", "market": 0.27, "baseline": null }
+      ]
+    },
+    {
+      "id": "pan-eng",
+      "group": "Group L",
+      "round": "Group L · matchday 3",
+      "kickoff": "2026-06-27T21:00:00Z",
+      "kickoffLabel": "Sat · 5:00 PM ET",
+      "importance": 76,
+      "venue": { "name": "MetLife Stadium", "city": "East Rutherford, NJ", "lat": 40.813, "lon": -74.074 },
+      "weather": { "tempF": 80, "condition": "Humid" },
+      "home": { "code": "pa", "code3": "PAN", "name": "Panama", "fifaRank": 40, "att": -0.15, "def": -0.10 },
+      "away": { "code": "gb-eng", "code3": "ENG", "name": "England", "fifaRank": 4, "att": 0.28, "def": 0.20 },
+      "markets": [
+        { "key": "total_over_2.5", "group": "Total goals", "label": "Over 2.5", "market": 0.52, "baseline": 0.57 },
+        { "key": "result_away", "group": "Result", "label": "England win", "market": 0.60, "baseline": 0.62 },
+        { "key": "handicap_away_-1.5", "group": "Spread", "label": "England -1.5", "market": 0.40, "baseline": null },
+        { "key": "fh_over_0.5", "group": "First half", "label": "Over 0.5", "market": 0.70, "baseline": null },
+        { "key": "btts_no", "group": "Both teams score", "label": "No", "market": 0.46, "baseline": null }
+      ]
+    },
+    {
+      "id": "cro-gha",
+      "group": "Group L",
+      "round": "Group L · matchday 3",
+      "kickoff": "2026-06-27T21:00:00Z",
+      "kickoffLabel": "Sat · 5:00 PM ET",
+      "importance": 74,
+      "venue": { "name": "Lincoln Financial Field", "city": "Philadelphia, PA", "lat": 39.901, "lon": -75.168 },
+      "weather": { "tempF": 82, "condition": "Humid" },
+      "home": { "code": "hr", "code3": "CRO", "name": "Croatia", "fifaRank": 10, "att": 0.10, "def": 0.12 },
+      "away": { "code": "gh", "code3": "GHA", "name": "Ghana", "fifaRank": 73, "att": 0.00, "def": -0.04 },
+      "markets": [
+        { "key": "btts_yes", "group": "Both teams score", "label": "Yes", "market": 0.53, "baseline": 0.58 },
+        { "key": "total_over_2.5", "group": "Total goals", "label": "Over 2.5", "market": 0.52, "baseline": 0.54 },
+        { "key": "result_home", "group": "Result", "label": "Croatia win", "market": 0.46, "baseline": 0.47 },
+        { "key": "handicap_home_-1.5", "group": "Spread", "label": "Croatia -1.5", "market": 0.27, "baseline": null },
+        { "key": "fh_over_0.5", "group": "First half", "label": "Over 0.5", "market": 0.69, "baseline": null }
+      ]
+    },
+    {
+      "id": "col-por",
+      "group": "Group K",
+      "round": "Group K · matchday 3",
+      "kickoff": "2026-06-27T23:30:00Z",
+      "kickoffLabel": "Sat · 7:30 PM ET",
+      "importance": 77,
+      "venue": { "name": "Hard Rock Stadium", "city": "Miami Gardens, FL", "lat": 25.958, "lon": -80.239 },
+      "weather": { "tempF": 88, "condition": "Hot & humid" },
+      "home": { "code": "co", "code3": "COL", "name": "Colombia", "fifaRank": 14, "att": 0.14, "def": 0.10 },
+      "away": { "code": "pt", "code3": "POR", "name": "Portugal", "fifaRank": 6, "att": 0.26, "def": 0.14 },
+      "markets": [
+        { "key": "btts_yes", "group": "Both teams score", "label": "Yes", "market": 0.55, "baseline": 0.59 },
+        { "key": "total_over_2.5", "group": "Total goals", "label": "Over 2.5", "market": 0.54, "baseline": 0.56 },
+        { "key": "result_away", "group": "Result", "label": "Portugal win", "market": 0.49, "baseline": 0.48 },
+        { "key": "handicap_away_-1.5", "group": "Spread", "label": "Portugal -1.5", "market": 0.29, "baseline": null },
+        { "key": "fh_over_0.5", "group": "First half", "label": "Over 0.5", "market": 0.70, "baseline": null }
+      ]
+    },
+    {
+      "id": "jor-arg",
+      "group": "Group J",
+      "round": "Group J · matchday 3",
+      "kickoff": "2026-06-28T00:00:00Z",
+      "kickoffLabel": "Sat · 8:00 PM ET",
+      "importance": 75,
+      "venue": { "name": "AT&T Stadium", "city": "Arlington, TX", "lat": 32.747, "lon": -97.094 },
+      "weather": { "tempF": 82, "condition": "Roof closed" },
+      "home": { "code": "jo", "code3": "JOR", "name": "Jordan", "fifaRank": 62, "att": -0.18, "def": -0.06 },
+      "away": { "code": "ar", "code3": "ARG", "name": "Argentina", "fifaRank": 1, "att": 0.32, "def": 0.24 },
+      "markets": [
+        { "key": "result_away", "group": "Result", "label": "Argentina win", "market": 0.58, "baseline": 0.64 },
+        { "key": "handicap_away_-1.5", "group": "Spread", "label": "Argentina -1.5", "market": 0.41, "baseline": null },
+        { "key": "total_over_2.5", "group": "Total goals", "label": "Over 2.5", "market": 0.55, "baseline": 0.56 },
+        { "key": "btts_no", "group": "Both teams score", "label": "No", "market": 0.48, "baseline": null },
+        { "key": "fh_over_0.5", "group": "First half", "label": "Over 0.5", "market": 0.70, "baseline": null }
+      ]
+    }
+  ]
+}

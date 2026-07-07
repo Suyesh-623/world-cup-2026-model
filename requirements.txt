@@ -1,0 +1,19 @@
+# The core engine (kelly.py, poisson.py) is pure-Python — only pytest is
+# needed to run the test suite. The heavier deps below power the data +
+# modeling pipeline (Phase 1.1+) and are not required for the math tests.
+pytest>=8.0
+
+# Data + modeling pipeline
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+xgboost>=2.0
+statsmodels>=0.14
+
+# Data sources
+requests>=2.31
+cryptography>=42.0      # Kalshi RSA-PSS request signing
+beautifulsoup4>=4.12
+lxml>=5.0
+python-dotenv>=1.0

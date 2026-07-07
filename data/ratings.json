@@ -1,0 +1,437 @@
+{
+  "base": 1.5043,
+  "homeAdv": 0.383,
+  "teams": {
+    "Algeria": {
+      "att": 0.405,
+      "def": 0.0499,
+      "games": 7
+    },
+    "Andorra": {
+      "att": -0.4666,
+      "def": -0.1045,
+      "games": 1
+    },
+    "Argentina": {
+      "att": 0.5966,
+      "def": 0.9183,
+      "games": 7
+    },
+    "Aruba": {
+      "att": -0.3782,
+      "def": -0.5786,
+      "games": 1
+    },
+    "Australia": {
+      "att": -0.1265,
+      "def": 0.6648,
+      "games": 7
+    },
+    "Austria": {
+      "att": 0.4259,
+      "def": 0.0246,
+      "games": 6
+    },
+    "Belgium": {
+      "att": 0.6198,
+      "def": 0.6432,
+      "games": 7
+    },
+    "Bermuda": {
+      "att": -0.3653,
+      "def": -0.369,
+      "games": 2
+    },
+    "Bolivia": {
+      "att": -0.5649,
+      "def": -0.5874,
+      "games": 4
+    },
+    "Bosnia and Herzegovina": {
+      "att": -0.0649,
+      "def": -0.2606,
+      "games": 5
+    },
+    "Brazil": {
+      "att": 0.7271,
+      "def": 0.5167,
+      "games": 7
+    },
+    "Burundi": {
+      "att": -0.1959,
+      "def": -0.4103,
+      "games": 1
+    },
+    "Cameroon": {
+      "att": -0.159,
+      "def": 0.0662,
+      "games": 1
+    },
+    "Canada": {
+      "att": 0.0325,
+      "def": 0.1535,
+      "games": 8
+    },
+    "Cape Verde": {
+      "att": -0.0471,
+      "def": 0.2888,
+      "games": 7
+    },
+    "Chile": {
+      "att": 0.47,
+      "def": -0.3086,
+      "games": 4
+    },
+    "China": {
+      "att": -0.0497,
+      "def": 0.2459,
+      "games": 1
+    },
+    "Colombia": {
+      "att": 0.0625,
+      "def": 0.4607,
+      "games": 7
+    },
+    "Costa Rica": {
+      "att": -0.083,
+      "def": -0.6165,
+      "games": 4
+    },
+    "Croatia": {
+      "att": 0.3688,
+      "def": -0.2445,
+      "games": 7
+    },
+    "Cura\u00e7ao": {
+      "att": -0.1278,
+      "def": -0.4489,
+      "games": 7
+    },
+    "Czechia": {
+      "att": -0.0222,
+      "def": -0.464,
+      "games": 5
+    },
+    "DR Congo": {
+      "att": -0.0849,
+      "def": 0.306,
+      "games": 6
+    },
+    "Denmark": {
+      "att": -0.2734,
+      "def": 0.2542,
+      "games": 1
+    },
+    "Dominican Republic": {
+      "att": 0.1621,
+      "def": -0.6938,
+      "games": 1
+    },
+    "Ecuador": {
+      "att": -0.2577,
+      "def": 0.7056,
+      "games": 7
+    },
+    "Egypt": {
+      "att": 0.3739,
+      "def": 0.587,
+      "games": 7
+    },
+    "El Salvador": {
+      "att": -0.5638,
+      "def": 0.2092,
+      "games": 2
+    },
+    "England": {
+      "att": 0.0967,
+      "def": 0.4238,
+      "games": 7
+    },
+    "Finland": {
+      "att": -0.0993,
+      "def": 0.2123,
+      "games": 3
+    },
+    "France": {
+      "att": 0.7222,
+      "def": 0.4273,
+      "games": 7
+    },
+    "Gabon": {
+      "att": -0.2108,
+      "def": -0.3715,
+      "games": 1
+    },
+    "Gambia": {
+      "att": 0.0814,
+      "def": -0.2892,
+      "games": 2
+    },
+    "Germany": {
+      "att": 0.9704,
+      "def": 0.0313,
+      "games": 7
+    },
+    "Ghana": {
+      "att": -0.3534,
+      "def": 0.2482,
+      "games": 7
+    },
+    "Greece": {
+      "att": -0.0934,
+      "def": 0.0343,
+      "games": 2
+    },
+    "Guatemala": {
+      "att": -0.5618,
+      "def": -0.7216,
+      "games": 4
+    },
+    "Haiti": {
+      "att": -0.2188,
+      "def": -0.1741,
+      "games": 7
+    },
+    "Honduras": {
+      "att": -0.1286,
+      "def": 0.1125,
+      "games": 1
+    },
+    "Iceland": {
+      "att": -0.1057,
+      "def": -0.2144,
+      "games": 5
+    },
+    "Iran": {
+      "att": 0.0873,
+      "def": 0.4943,
+      "games": 7
+    },
+    "Iraq": {
+      "att": -0.5532,
+      "def": -0.4325,
+      "games": 6
+    },
+    "Ireland": {
+      "att": -0.2744,
+      "def": 0.2294,
+      "games": 2
+    },
+    "Ivory Coast": {
+      "att": 0.3873,
+      "def": 0.8461,
+      "games": 6
+    },
+    "Jamaica": {
+      "att": -0.0579,
+      "def": -0.0854,
+      "games": 1
+    },
+    "Japan": {
+      "att": 0.256,
+      "def": 0.5325,
+      "games": 6
+    },
+    "Jordan": {
+      "att": -0.056,
+      "def": -0.3874,
+      "games": 7
+    },
+    "Kosovo": {
+      "att": -0.1492,
+      "def": -0.1295,
+      "games": 1
+    },
+    "Madagascar": {
+      "att": -0.1959,
+      "def": -0.2559,
+      "games": 1
+    },
+    "Mali": {
+      "att": -0.1831,
+      "def": -0.0907,
+      "games": 1
+    },
+    "Mauritania": {
+      "att": 0.1633,
+      "def": 0.1125,
+      "games": 1
+    },
+    "Mexico": {
+      "att": 0.3305,
+      "def": 1.1015,
+      "games": 11
+    },
+    "Morocco": {
+      "att": 0.5543,
+      "def": 0.4112,
+      "games": 8
+    },
+    "Netherlands": {
+      "att": 0.4675,
+      "def": 0.0221,
+      "games": 7
+    },
+    "New Zealand": {
+      "att": 0.2365,
+      "def": -0.5656,
+      "games": 7
+    },
+    "Nicaragua": {
+      "att": -0.3774,
+      "def": -0.2956,
+      "games": 2
+    },
+    "Nigeria": {
+      "att": 0.3841,
+      "def": -0.0347,
+      "games": 3
+    },
+    "North Macedonia": {
+      "att": -0.5014,
+      "def": -0.1505,
+      "games": 2
+    },
+    "Northern Ireland": {
+      "att": 0.0809,
+      "def": -0.0064,
+      "games": 1
+    },
+    "Norway": {
+      "att": 0.4723,
+      "def": -0.096,
+      "games": 7
+    },
+    "Panama": {
+      "att": -0.4101,
+      "def": -0.1994,
+      "games": 10
+    },
+    "Paraguay": {
+      "att": -0.028,
+      "def": 0.3569,
+      "games": 6
+    },
+    "Peru": {
+      "att": 0.0381,
+      "def": -0.1652,
+      "games": 3
+    },
+    "Portugal": {
+      "att": 0.2283,
+      "def": 0.864,
+      "games": 7
+    },
+    "Puerto Rico": {
+      "att": -0.3863,
+      "def": -0.5808,
+      "games": 1
+    },
+    "Qatar": {
+      "att": -0.5182,
+      "def": -0.6705,
+      "games": 5
+    },
+    "Russia": {
+      "att": -0.1696,
+      "def": 0.2256,
+      "games": 1
+    },
+    "Saudi Arabia": {
+      "att": -0.4105,
+      "def": -0.16,
+      "games": 8
+    },
+    "Scotland": {
+      "att": -0.1779,
+      "def": 0.2371,
+      "games": 7
+    },
+    "Senegal": {
+      "att": 0.4625,
+      "def": 0.0782,
+      "games": 7
+    },
+    "Serbia": {
+      "att": 0.0382,
+      "def": -0.5459,
+      "games": 4
+    },
+    "Slovenia": {
+      "att": -0.0818,
+      "def": 0.0171,
+      "games": 1
+    },
+    "South Africa": {
+      "att": -0.4507,
+      "def": 0.1562,
+      "games": 7
+    },
+    "South Korea": {
+      "att": -0.2353,
+      "def": 0.1446,
+      "games": 7
+    },
+    "Spain": {
+      "att": 0.168,
+      "def": 0.9449,
+      "games": 7
+    },
+    "Sweden": {
+      "att": 0.4205,
+      "def": -0.3521,
+      "games": 5
+    },
+    "Switzerland": {
+      "att": 0.3145,
+      "def": 0.0605,
+      "games": 7
+    },
+    "Trinidad & Tobago": {
+      "att": -0.2425,
+      "def": -0.8117,
+      "games": 1
+    },
+    "Tunisia": {
+      "att": -0.537,
+      "def": -0.5254,
+      "games": 7
+    },
+    "Turkey": {
+      "att": 0.1699,
+      "def": -0.051,
+      "games": 5
+    },
+    "United States": {
+      "att": 0.7565,
+      "def": -0.2019,
+      "games": 7
+    },
+    "Uruguay": {
+      "att": -0.0268,
+      "def": 0.0462,
+      "games": 5
+    },
+    "Uzbekistan": {
+      "att": -0.1055,
+      "def": -0.6502,
+      "games": 7
+    },
+    "Venezuela": {
+      "att": -0.2383,
+      "def": 0.2895,
+      "games": 3
+    },
+    "Wales": {
+      "att": -0.033,
+      "def": -0.0658,
+      "games": 1
+    },
+    "Zambia": {
+      "att": -0.1286,
+      "def": -0.387,
+      "games": 1
+    }
+  },
+  "fittedFrom": "200 matches (2026 only), regularized Poisson MLE"
+}
