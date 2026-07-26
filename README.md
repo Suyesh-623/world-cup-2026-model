@@ -1,20 +1,34 @@
 # World Cup 2026 — value-betting model
 
-A transparent, interpretable model for finding positive-EV bets on the 2026
-World Cup and sizing them with fee-aware half-Kelly. Pure-Python core (no heavy
-deps to run or test); the live dashboard at https://suyesh-niraula.vercel.app/world-cup reads the JSON this exports.
+A transparent, interpretable model that priced the 2026 World Cup knockout
+rounds and graded its own predictions in public. Pure-Python core (pytest is
+the only dependency to run the tests); the live dashboard at
+https://www.suyeshniraula.com/world-cup reads the JSON this repo exports.
+
+**Final record (tournament complete, Jul 2026):** 24/32 advancement calls
+(75%), 107/192 across six markets (56%), and a fee-aware half-Kelly paper
+ledger that finished net −$799 against live Bet365 prices. Misses included —
+a results page that only shows wins is marketing. Method + limitations:
+[Data & Method PDF](https://www.suyeshniraula.com/docs/world-cup-data-method.pdf).
 
 ## Layout
 
 ```
 .
-├── kelly.py          fee-aware Kelly / EV sizing for binary event contracts
+├── ingest.py         builds data/matches_2026.csv from sourced 2026 results
+├── ratings.py        regularized Poisson MLE -> per-team att/def ratings
 ├── poisson.py        bivariate-Poisson / Dixon-Coles -> every market
+├── kelly.py          fee-aware Kelly / EV sizing for binary event contracts
 ├── importance.py     match-importance (0-100) heuristic
-├── export_json.py    fixtures + engine -> src/data/world-cup/predictions.json
-├── data/fixtures.json  sample Round-of-32 fixtures (ratings, prices, venues)
+├── bracket.py        knockout simulation through to a champion
+├── fetch_odds.py     live market prices (TheStatsAPI; key stays in .env)
+├── export_json.py    fixtures + engine -> the dashboard's predictions JSON
+├── data/
+│   ├── matches_2026.csv   the 200-match training set (72 WC group + 128 friendlies)
+│   ├── ratings.json       fitted ratings with per-team game counts
+│   └── bracket.json       the simulated knockout bracket
 ├── tests/            pinned math + coherence tests
-└── requirements.txt  pytest only for the core; the rest is for Phase 1.1+
+└── requirements.txt
 ```
 
 ## Run
@@ -24,41 +38,30 @@ python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt   # or just: pip install pytest
 
 # tests — reproduce the worked Kelly examples + market coherence
-PYTHONPATH=. .venv/bin/python -m pytest model/tests -q
+PYTHONPATH=. .venv/bin/python -m pytest tests -q
 
 # regenerate the dashboard data
-PYTHONPATH=. .venv/bin/python -m model.export_json
+PYTHONPATH=. .venv/bin/python -m export_json
 ```
 
 ## The math
 
 - **Kelly (binary contract):** `f* = (p - c) / (1 - c)`, half-Kelly `= f*/2`,
-  fee-adjusted for Robinhood's ~1c/contract each side, capped per bet. The tests
-  pin it to Suyesh's worked examples (Switzerland +155 -> 1.47% half; Morocco 35c
-  -> 7.31% half).
-- **Poisson core:** team attack/defense ratings -> expected goals -> a full
-  scoreline matrix (Dixon-Coles low-score correction) from which every market
-  is derived: result, double chance, BTTS, totals, handicap, correct score,
-  first half. One coherent distribution, so the numbers can be audited.
+  fee-adjusted for the ~1c/contract each side, capped per bet. The tests pin it
+  to worked examples (Switzerland +155 -> 1.47% half; Morocco 35c -> 7.31% half).
+- **Poisson core:** team attack/defense ratings — fit by regularized Poisson
+  MLE on the 200 real 2026 matches in `data/matches_2026.csv` (World-Cup
+  weighted) — produce expected goals, then a full scoreline matrix with the
+  Dixon-Coles low-score correction. Every market derives from that one
+  distribution: result, totals, BTTS, correct score, advancement.
+- **Walk-forward:** after each knockout round the bracket re-seeded on the real
+  winners and the ratings refit before pricing the next round, so later
+  predictions build on actual results, including the model's own misses.
 
-## Going live (Phase 1.1+)
+## Honest limitations
 
-This v1 ships with **sample data**: team ratings are prior-seeded (not yet fit on
-2026 results) and market prices are placeholders. To go live:
-
-1. **Ingest 2026 results** (friendlies + WC matches) and fit ratings — replace
-   the `att`/`def` priors in `data/fixtures.json`.
-2. **Kalshi live odds.** Create an API key at <https://kalshi.com/account/profile>
-   (the regulated exchange Robinhood routes to). Copy `.env.example` to `.env`,
-   set `KALSHI_KEY_ID` + `KALSHI_PRIVATE_KEY_PATH`. Never commit the key.
-3. **Alerts.** Schedule `export_json` + a Kalshi poll; email when a +EV bet
-   crosses the threshold.
-
-Execution stays manual — the tool recommends and sizes; you place the bets.
-Robinhood's agentic trading (MCP) is equities-only in beta as of June 2026;
-when event contracts ship, the execution layer is built to plug into it.
-
-## Not betting advice
-
-Model estimates carry variance; a positive edge only plays out over many bets.
-Half-Kelly is still volatile. Size responsibly.
+200 matches across 48+ teams is a small sample; the model sees final scores
+only (no xG, lineups, or injuries); friendlies are noisy even down-weighted;
+and only 6 of the 32 knockout games had live prices attached, so the betting
+ledger proves nothing on its own. Forecasts, not betting advice. Execution
+always stayed manual.
