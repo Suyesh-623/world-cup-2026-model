@@ -1,8 +1,9 @@
-"""Pin the money math to Suyesh's worked examples.
+"""Pin the money math to my worked examples.
 
 These exact-number tests are the guardrail: if a refactor changes the sizing,
 the suite breaks before any real money is at stake.
 """
+
 from model.kelly import (
     american_to_prob,
     american_to_decimal,

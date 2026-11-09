@@ -7,7 +7,7 @@ market's implied probability. We compare it against the model probability
 half-Kelly by default, the standard discipline for high-variance sports
 markets where model error is real.
 
-The clean (no-fee) results reproduce Suyesh's worked examples exactly, which
+The clean (no-fee) results reproduce my worked examples exactly, which
 is why those cases are pinned as tests (see ``tests/test_kelly.py``):
 
   * Switzerland +155, model p = 0.41  -> full Kelly 2.94%  (half 1.47%)
@@ -17,12 +17,13 @@ Keeping the sizing in one audited module (mirrored on the client in
 ``src/lib/betting/kelly.ts``) means the money math has a single source of
 truth instead of being re-derived per call site.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass
 
-
 # ── Odds conversions ────────────────────────────────────────────────────────
+
 
 def american_to_prob(odds: float) -> float:
     """Implied probability from American odds (+150, -130, ...)."""
@@ -39,6 +40,7 @@ def american_to_decimal(odds: float) -> float:
 
 
 # ── Kelly primitives ────────────────────────────────────────────────────────
+
 
 def kelly_from_b(p: float, b: float) -> float:
     """Full Kelly fraction for net decimal odds ``b`` (= decimal odds - 1).
@@ -65,7 +67,7 @@ def kelly_binary(
     sell fee. With zero fees this reduces to the clean form ``(p - price) / (1 - price)``.
     """
     cost = price + fee_buy
-    net_win = 1.0 - fee_sell - cost           # profit per contract if YES
+    net_win = 1.0 - fee_sell - cost  # profit per contract if YES
     if cost <= 0 or net_win <= 0:
         return 0.0
     return kelly_from_b(p, net_win / cost)
@@ -82,20 +84,21 @@ def ev_binary(
 
 # ── High-level sizing decision ──────────────────────────────────────────────
 
+
 @dataclass
 class BetSizing:
     """One sized betting decision, ready to render or alert on."""
 
     model_prob: float
-    market_price: float          # contract price == market-implied probability
+    market_price: float  # contract price == market-implied probability
     baseline_prob: float | None  # Opta/FIFA consensus, if available
-    edge: float                  # model_prob - market_price
+    edge: float  # model_prob - market_price
     full_kelly: float
-    kelly_fraction: float        # e.g. 0.5 for half-Kelly
-    sized_fraction: float        # full_kelly * kelly_fraction, after the cap
-    stake: float                 # dollars on the bankroll
+    kelly_fraction: float  # e.g. 0.5 for half-Kelly
+    sized_fraction: float  # full_kelly * kelly_fraction, after the cap
+    stake: float  # dollars on the bankroll
     ev_per_contract: float
-    verdict: str                 # 'pass' | 'lean' | 'bet'
+    verdict: str  # 'pass' | 'lean' | 'bet'
 
 
 def evaluate_bet(
