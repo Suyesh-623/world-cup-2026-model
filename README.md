@@ -1,5 +1,7 @@
 # World Cup 2026 — value-betting model
 
+[![tests](https://github.com/Suyesh-623/world-cup-2026-model/actions/workflows/tests.yml/badge.svg)](https://github.com/Suyesh-623/world-cup-2026-model/actions/workflows/tests.yml)
+
 A transparent, interpretable model that priced the 2026 World Cup knockout
 rounds and graded its own predictions in public. Pure-Python core (pytest is
 the only dependency to run the tests); the live dashboard at
@@ -34,14 +36,16 @@ a results page that only shows wins is marketing. Method + limitations:
 ## Run
 
 ```bash
+# the code imports itself as the `model` package, so clone it under that name
+git clone https://github.com/Suyesh-623/world-cup-2026-model.git model
 python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt   # or just: pip install pytest
+.venv/bin/pip install -r model/requirements.txt   # or just: pip install pytest
 
 # tests — reproduce the worked Kelly examples + market coherence
-PYTHONPATH=. .venv/bin/python -m pytest tests -q
+.venv/bin/python -m pytest model -q
 
 # regenerate the dashboard data
-PYTHONPATH=. .venv/bin/python -m export_json
+PYTHONPATH=. .venv/bin/python -m model.export_json
 ```
 
 ## The math
@@ -65,3 +69,7 @@ only (no xG, lineups, or injuries); friendlies are noisy even down-weighted;
 and only 6 of the 32 knockout games had live prices attached, so the betting
 ledger proves nothing on its own. Forecasts, not betting advice. Execution
 always stayed manual.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
